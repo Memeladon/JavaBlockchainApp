@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">BlockChain на Java</string>
+
+    <string name="log_block_chain_valid">Blockchain валидный? %1$b</string>
+
+    <string name="action_set_pow">Proof-of-Work</string>
+    <string name="action_encrypt_data">Зашифровать сообщение</string>
+    <string name="action_dark_theme">Темная тема</string>
+    <string name="action_more">Информация</string>
+    <string name="action_exit">Выход</string>
+
+    <string name="title_block_number" formatted="false">Блок #%d</string>
+    <string name="title_block_previous_hash">Предыдущий хэш:</string>
+    <string name="title_block_timestamp">Временная метка:</string>
+    <string name="title_block_data">Данные/сообщение:</string>
+    <string name="title_block_hash">Хэш:</string>
+    <string name="title_pow">Proof-of-Work</string>
+    <string name="title_more">Информация</string>
+
+    <string name="text_creating_block_chain">Пожалуйста, подождите. Создание Blockchain…</string>
+    <string name="text_mining_blocks">Пожалуйста, подождите. Добыча блоков для вставки данных…</string>
+    <string name="text_write_your_message">Напишите свое сообщение</string>
+    <string name="text_encryption_activated">Шифрование включено</string>
+    <string name="text_encryption_deactivated">Шифрование выключено</string>
+    <string name="text_set_pow">Установите Proof-of-Work</string>
+    <string name="text_pow_warning"><b>Внимание!</b>\n\nЭтот параметр предназначен только для тестирования. Если вы измените это значение на большее,
+        приложение может занять больше времени на добычу хэшей, ваше устройство будет использовать больше процессора, и оно может быть заморожено.
+        Если это произошло, закройте приложение и попробуйте очистить данные хранилища, чтобы восстановить значения.\n\n
+        <b>Замечание:</b>Приложение будет перезапущено, чтобы применить изменения.</string>
+    <string name="text_continue">Я понял. Продолжить и перезапустить</string>
+    <string name="text_developed_by">Разработано Ne! and Memeladon</string>
+    <string name="text_app_version">v.1.0.0 - Build 01</string>
+    <string name="text_more_info">Это приложение - пример того, как Blockchain работает в качестве приложения для Android с использованием Java.</string>
+    <string name="text_check_block_chain">Blockchain обучение</string>
+    <string name="text_check_white_paper">Белая книга по биткоину</string>
+    <string name="text_or_read">Доп информация и источники:</string>
+    <string name="text_check_book_1">Революция блокчейна</string>
+    <string name="text_check_book_2">Наука о блокчейне</string>
+    <string name="text_source_code">Исходный код этого приложения можно найти по адресу:</string>
+    <string name="text_check_repo">GitHub</string>
+    <string name="text_check_post">Medium post</string>
+    <string name="text_bout_me">Больше о нас:</string>
+    <string name="text_check_web">Посетите мой веб-сайт</string>
+    <string name="text_love">&lt;3</string>
+    <string name="text_thank_you">Большое спасибо!</string>
+
+    <string name="error_block_chain_corrupted">Блокчейн поврежден. Вставлен недействительный блок</string>
+    <string name="error_something_wrong">Что-то не так</string>
+    <string name="error_empty_data">Вы пытаетесь отправить пустые данные</string>
+
+    <string name="cd_send_data">Отправить данные</string>
+    <string name="cd_arrow_back">Отклонить</string>
+    <string name="cd_logo">Пример логотипа BlockChain</string>
+
+    <string name="shortcut_restore_pow_short_label">Восстановить</string>
+    <string name="shortcut_restore_pow_long_label">Восстановить и открыть</string>
+    <string name="shortcut_disable">Ярлыки недоступны</string>
+</resources>
